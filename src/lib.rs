@@ -1,4 +1,7 @@
 pub mod problem;
+pub mod solution;
+pub mod solver;
+pub mod config;
 
 #[cfg(test)]
 mod tests {
