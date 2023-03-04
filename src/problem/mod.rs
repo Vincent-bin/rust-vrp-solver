@@ -3,6 +3,7 @@ pub mod job;
 pub mod constraint;
 pub mod objective;
 
+
 pub struct Problem {
     pub vehicles: Vec<vehicle::Vehicle>,
     pub jobs: Vec<job::Job>,

@@ -1,3 +1,4 @@
+#[derive(Debug, Clone)]
 pub struct Route{
     pub cost: f64,
     pub vehicle_id: String,

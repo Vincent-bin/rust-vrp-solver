@@ -1,6 +1,7 @@
 pub mod route;
 use self::route::Route;
 
+#[derive(Debug, Clone)]
 pub struct Solution{
     pub cost: f64,
     pub routes: Vec<Route>,
